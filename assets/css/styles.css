@@ -734,11 +734,15 @@ a {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .footer .social .social-link {
-    margin-left: 9px;
+    margin: -2px 0  0 9px;
+}
+
+.footer .column + .column a:hover {
+    text-decoration: underline;
 }
 
 .footer .copyright {
